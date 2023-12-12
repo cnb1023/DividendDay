@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 196,
+    "height" : 122
+  }, {
+    "width" : 391,
+    "height" : 244
+  }, {
+    "width" : 781,
+    "height" : 487
+  }, {
+    "width" : 1561,
+    "height" : 973
+  }, {
+    "width" : 3121,
+    "height" : 1945
+  }, {
+    "width" : 6242,
+    "height" : 3890
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 6242,
+  "@id" : "https://cnb1023.github.io/DividendDay/images/E54-020",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3890
+}
