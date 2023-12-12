@@ -1,0 +1,86 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://cnb1023.github.io/DividendDay/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "ChloeTestManifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is a collection of items from the Bank of England Museum including paintings and prints.",
+    "@language" : "en"
+  } ],
+  "license" : " https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Copyright of the Bank of England Museum",
+  "sequences" : [ {
+    "@id" : "http://11d071db-f84d-4a07-b194-cb8ae76da0b4",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://19364334-9052-46c7-9ecf-b1121c8ac673",
+      "@type" : "sc:Canvas",
+      "label" : "The Inimitable Note",
+      "height" : 3890,
+      "width" : 6242,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1e8181ff-b98c-4e8e-9f46-a11b916c340b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/E54-020/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/E54-020",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3890,
+          "width" : 6242
+        },
+        "on" : "http://19364334-9052-46c7-9ecf-b1121c8ac673"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c1798b38-33bf-45da-b0d6-e4b8f2ba9b74",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://dc10f1e5-c42a-40d9-a3e7-ce42d7269c0e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://c1798b38-33bf-45da-b0d6-e4b8f2ba9b74"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://19364334-9052-46c7-9ecf-b1121c8ac673" ]
+  } ]
+}
