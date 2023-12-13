@@ -3,6 +3,11 @@
   "@id" : "https://cnb1023.github.io/DividendDay/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "ChloeTestManifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/153633375/abdec5acd3cc61e8581c35a981cf1d16/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "This is a collection of items from the Bank of England Museum including paintings and prints.",
@@ -41,6 +46,11 @@
           "width" : 6242
         },
         "on" : "http://19364334-9052-46c7-9ecf-b1121c8ac673"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://cnb1023.github.io/DividendDay/annotations/c8c91468855829206861dd2a92ffd2f8.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
