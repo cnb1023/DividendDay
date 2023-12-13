@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Caduceus",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Caduceus</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/153633375",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-13T16:13:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702483995656",
+    "dcterms:modified" : "2023-12-13T16:13:15",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://cnb1023.github.io/DividendDay/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4814,1526,766,1225"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4814.31607,1525.67433h383.14092v0h383.14092v612.42547v612.42547h-383.14092h-383.14092v-612.42547z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5c93d15a-8254-4a3f-9861-ac4c0cb828ea\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://19364334-9052-46c7-9ecf-b1121c8ac673"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Britannia with a beehive and shield.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Britannia with a beehive and shield.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/153633375",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-13T16:12:57",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702483976786",
+    "dcterms:modified" : "2023-12-13T16:12:57",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://cnb1023.github.io/DividendDay/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=800,531,568,818"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1368.09979,1348.65028h-283.86868v0h-283.86868v-408.93298v-408.93298h283.86868h283.86868v408.93298z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_eb50c86a-3e03-4ed0-8bdf-479f1c2a6678\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://19364334-9052-46c7-9ecf-b1121c8ac673"
+    } ]
+  } ],
+  "@id" : "https://cnb1023.github.io/DividendDay/annotations/c8c91468855829206861dd2a92ffd2f8.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
