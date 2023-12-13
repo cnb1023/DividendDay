@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://cnb1023.github.io/DividendDay/annotations/c8c91468855829206861dd2a92ffd2f8.json" ],
+  "@id" : "https://cnb1023.github.io/DividendDay/annotations/collection.json",
+  "label" : "All annotations loaded in cnb1023/DividendDay project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
