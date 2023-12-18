@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 3514,
+    "id" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1/canvas/",
+    "label" : {
+      "none" : [ "0187Clerks1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 110,
+              "height" : 76
+            }, {
+              "width" : 220,
+              "height" : 152
+            }, {
+              "width" : 440,
+              "height" : 303
+            }, {
+              "width" : 879,
+              "height" : 606
+            }, {
+              "width" : 1757,
+              "height" : 1211
+            }, {
+              "width" : 3514,
+              "height" : 2421
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3514,
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2421
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3514,
+          "id" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2421
+        },
+        "target" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1/canvas/"
+      } ]
+    } ],
+    "height" : 2421
+  }, {
+    "width" : 3514,
     "id" : "https://cnb1023.github.io/DividendDay/images/0187Women/canvas/",
     "label" : {
       "none" : [ "0187Women" ]
