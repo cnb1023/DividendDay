@@ -1,0 +1,283 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://cnb1023.github.io/DividendDay/manifests/dividenddaymanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : " Dividend Day at the Bank of England, by George Elgar Hicks, 1859",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A close look at the painting, Dividend Day at the Bank of England.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0",
+  "attribution" : "George Elgar Hicks",
+  "sequences" : [ {
+    "@id" : "http://1e0c7c78-3fcb-463e-a3d7-90ef1a7fc1fe",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://112751d0-85f8-47d8-8c31-42ce4a1ca7ca",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Architecture ",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c742c6ae-18f6-455c-993b-3b32dacd7802",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187architecture/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187architecture",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://112751d0-85f8-47d8-8c31-42ce4a1ca7ca"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://193b8dcf-9f99-43cb-87da-23dbf4364501",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Messenger",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6a29628f-aaa2-468a-8143-977f5d952da3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187Porter1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187Porter1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://193b8dcf-9f99-43cb-87da-23dbf4364501"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b3b037aa-e8a0-4e9a-a22b-be62d8777bc3",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Child",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9058a70e-9ea6-4fdf-b1a9-411d69cd20b0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187Child1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187Child1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://b3b037aa-e8a0-4e9a-a22b-be62d8777bc3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d36dec92-820c-401b-932c-510ee1652e3e",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Clerks",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://69af00f0-be5e-4ce5-93ff-2a2c2d7089e3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187Clerks1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://d36dec92-820c-401b-932c-510ee1652e3e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8294f14d-a8dc-4bd8-b0b1-5bccebe90467",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Customer",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7da7ba86-2fe5-47b4-8bfc-35dd17d47164",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187countryman/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187countryman",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://8294f14d-a8dc-4bd8-b0b1-5bccebe90467"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://598b653d-01fe-437a-bdfb-e54e960ec3a9",
+      "@type" : "sc:Canvas",
+      "label" : " Dividend Day at the Bank of England, by George Elgar Hicks ",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://866f4aa9-e4fe-40d1-82dc-1d291e7832c1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://598b653d-01fe-437a-bdfb-e54e960ec3a9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://72f41084-a55e-45c4-939b-dfbeb9fa1e1a",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Litter on floor",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://68bfdf46-31ba-4edf-a4ab-feaa98538faa",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187floor/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187floor",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://72f41084-a55e-45c4-939b-dfbeb9fa1e1a"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://50058279-6c7f-4e31-b27b-51cd30ccd6a5",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Animals",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9018c48f-6ccb-4cae-ba1a-da4a1097d400",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187Animals/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187Animals",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://50058279-6c7f-4e31-b27b-51cd30ccd6a5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7d6f02d0-aa35-4261-b571-039d8a471815",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Man in Wheelchair",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0e2df660-c0a3-4feb-8190-8b2e96ccfbe9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187Wheelchair/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187Wheelchair",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://7d6f02d0-aa35-4261-b571-039d8a471815"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ae94e73a-a5f0-4b4a-9600-e008d9008d75",
+      "@type" : "sc:Canvas",
+      "label" : "Dividend Day - Women",
+      "height" : 2421,
+      "width" : 3514,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9aa9246e-f943-4ee3-8fa8-f3e3bb4ffc14",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cnb1023.github.io/DividendDay/images/0187Women/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cnb1023.github.io/DividendDay/images/0187Women",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2421,
+          "width" : 3514
+        },
+        "on" : "http://ae94e73a-a5f0-4b4a-9600-e008d9008d75"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
