@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://cnb1023.github.io/DividendDay/manifests/manifest2.json",
     "label" : "ChloeTestManifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://cnb1023.github.io/DividendDay/manifests/dividenddaymanifest.json",
+    "label" : " Dividend Day at the Bank of England, by George Elgar Hicks, 1859"
   } ]
 }
